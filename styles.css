@@ -1,0 +1,159 @@
+body{
+    background-image: url(https://www.wargamesinc.co.uk/wp-content/uploads/2019/04/playerunknown-039-s-battlegrounds-3840x2160-playerunknowns-battlegrounds-2017-4k-10066.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Verdana;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.nav-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.left-side{
+    display: flex;
+
+}
+
+.nav-wrapper > .left-side > div{
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-link-wrapper{
+    height: 25px;
+    border-bottom: 1px solid transparent;
+    transition: text border-bottom 0.5s;
+}
+
+.nav-link-wrapper a{
+    color: lightgrey;
+    text-decoration: none;
+    transition: color 0.5s;  
+}
+
+.nav-link-wrapper:hover{
+    border-bottom: 1px solid black;
+}
+
+.nav-link-wrapper a:hover{
+    color: seagreen;
+}
+
+.right-side{
+    margin-left: auto;
+    color: lightgrey;
+}
+
+.middle-text{
+    margin-left: 580px;
+    margin-top: -30px;
+    background-color: black;
+    color: rgb(84, 184, 84);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0.5fr;
+    padding-top: 0.5fr;
+}
+
+.middle-image{
+    margin-left: 655px;
+    margin-top: 20px;
+}
+
+.media-pictures{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+}
+
+.the-hangout{
+    padding: 35px;
+}
+
+.the-hangout h4{
+    text-align: center;
+    color: transparent;
+    position: absolute;
+    top: 415px;
+    left: 100px;;
+    font-size: 20px;
+}
+
+.the-hangout:hover h4{
+    transition: 1s;
+    color: seagreen;
+}
+
+.the-hangout:hover img{
+    transition: 0.5s;
+    filter: brightness(10%);
+}
+
+.discord-wrapper{
+    padding: 35px;
+}
+
+.discord-wrapper h4{
+    text-align: center;
+    color: transparent;
+    position: absolute;
+    top: 415px;
+    left: 790px;
+    font-size: 20px;
+}
+
+.discord-wrapper:hover h4{
+    transition: 1s;
+    color: seagreen;
+}
+
+.discord-wrapper:hover img{
+    transition: 0.5s;
+    filter: brightness(10%);
+}
+
+.steam-group{
+    padding: 35px;
+}
+
+.steam-group h4{  
+    text-align: center;
+    color: transparent;
+    position: absolute;
+    top: 415px;
+    left: 1490px;
+    font-size: 20px;
+}     
+    
+.steam-group:hover h4{
+    transition: 1s;
+    color: seagreen;
+}
+
+.steam-group:hover img{
+    transition: 0.5s;
+    filter: brightness(10%);
+}
+
+.the-hangout img{
+    box-shadow: 10px 10px 20px black;
+}
+
+.discord-wrapper img{
+    box-shadow: 10px 10px 20px black;
+}
+
+.steam-group img{
+    box-shadow: 10px 10px 20px black;
+}
