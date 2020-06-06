@@ -2,8 +2,9 @@ function helloworld()
 {
     var rule = prompt("What is the one and only rule?!");
 
-    if (rule == "DON'T BE LAME")
+    if (rule == "DON'T BE LAME"){
         alert("You are, correct!"); 
-    else
+    }else {
         alert("You are, incorrect!");
+    }
 }
